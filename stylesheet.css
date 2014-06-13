@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.body {
+	margin: none;
+}
+
+/* {
+	border: 2px solid black;
+}*/
+
+.container {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/b/b6/Pentagon_city_mall.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 100%;
+	height: 1000px;
+
+}
+
+.centerbox {
+	width: 35%;
+	margin: 0 auto;
+	height: 190px;
+	background: url("C:/Users/Jason/Documents/Shopping-Cart/Images/list-image.jpg");
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.iteminput {
+	width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    background: -webkit-linear-gradient(#00B2EE, #38B0DE);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.itemm {
+	height: 40px;
+	width: 250px;
+	font-size: 22px;
+	font-family: fantasy;
+}
+
+.complete {
+	position: relative;
+	padding-left: 90%;
+}
+
+.food {
+	list-style-type: none;
+	width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    background: -webkit-linear-gradient(#a76f32, #a0522d);
+    border-radius: 5px;
+    padding-top: 5px;
+    font-family: fantasy;
+    font-size: 28px;
+    padding-left: 40px;
+ }
+
+ul {
+	padding:0; 
+	margin:0;
+}
+
+.strike {
+	text-decoration: line-through;
+	list-style-type: none;
+	width: 30%;
+    margin: 0 auto;
+    height: 50px;
+    background: -webkit-linear-gradient(#8C8C8C, #A3A3A3);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: fantasy;
+    font-size: 28px;
+}
+
+.delete {
+	padding-top: 10px;
+	padding-right: 5px;
+	float: right;
+	height: 25px;
+	width: 25px;
+}
+
+button {
+	
+}
